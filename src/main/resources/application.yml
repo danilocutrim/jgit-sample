@@ -9,8 +9,8 @@ spring:
     name: git-auxiliary
 
 git:
-  user: "danilocutrim"
-  password: "75475668da"
+  user: ""
+  password: ""
   url: "https://github.com/danilocutrim/corda-teste.git"
   path-to-clone: "/home/danilo/Workspace/git-teste"
   files-to-add: "/configFiles"
