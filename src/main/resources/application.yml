@@ -1,0 +1,16 @@
+server:
+  port: 9081
+spring:
+  profiles:
+    active: dev
+  config:
+    use-legacy-processing: true
+  application:
+    name: git-auxiliary
+
+git:
+  user: "danilocutrim"
+  password: "75475668da"
+  url: "https://github.com/danilocutrim/corda-teste.git"
+  path-to-clone: "/home/danilo/Workspace/git-teste"
+  files-to-add: "/configFiles"
